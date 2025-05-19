@@ -1,0 +1,41 @@
+@use "../_setting" as s;
+
+#header {
+	position: relative;
+    	transition: .3s;
+	.inBase__inner{
+		padding:0.5em 0;
+		@include s.media(m){
+			padding:1em 0;
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+		}
+	}
+}
+
+#wrapper .header {
+    	&__siteTitle {
+		display:block;
+		width:50%;
+		@include s.media(m){
+			width:22.7%;
+		}
+		img{
+			width:100%;
+		}
+		span{
+			display:block;
+			+span{
+				margin-top:0.3em;
+			}
+		}
+	}
+}
+
+#container #header .inBase__inner{
+	padding:0.7em 0;
+	@include s.media(m){
+		padding:1em 0;
+	}
+}

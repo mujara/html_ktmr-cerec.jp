@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="●サイトの検索キーワード●" />
+<meta name="description" content="●サイトの検索説明●" />
+<title>●サイトのタイトル●</title>
+<meta property="og:url" content="●ページの URL●" />
+<meta property="og:type" content="●ページの種類●website article" />
+<meta property="og:title" content="●ページの タイトル●" />
+<meta property="og:description" content="●ページの説明文●" />
+<meta property="og:site_name" content="●サイト名●" />
+<meta property="og:image" content="●サムネイル画像のURL●" />
+<meta name="apple-mobile-web-app-title" content="●iOS表示名●" />
+<meta name="author" content="●作者名●" />
+<link rel="apple-touch-icon" href="iphone.png">
+<link rel="stylesheet" href="css/import.css" media="all" />
+
+<!--fontplus -->
+<script src="https://webfont.fontplus.jp/accessor/script/fontplus.js?gUwfYWZ-iOk%3D&box=bjPcGl07Kw0%3D&aa=1&ab=2"></script>
+
+<!--google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="home" class="home">
+
+<div id="wrapper">
+	<header id="header" class="clearfix">
+		<div id="pageTopFix">
+		<div class="inBase"><div class="inBase__inner">
+			<h1 class="header__siteTitle"><a href="<?php echo home_url(); ?>">
+				<span><img src="img/common/imgCompanyName.png" alt="きたむら歯科クリニック" /></span>
+				<span><img src="img/common/siteTitle.svg" alt="セレック治療専門" /></span>
+			</a><!-- /.header__siteTitle --></h1>
+
+			<nav class="globalNavi">
+				<ul class="globalNavi__menu__main">
+					<li><a href="#homeAboutSection">セレック治療とは</a></li>
+					<li><a href="#homePriceSection">料金表</a></li>
+					<li><a href="#homeAdvantageSection">当院の強み</a></li>
+					<li><a href="#homeFlowSection">治療の流れ</a></li>
+					<li><a href="#homeQuestionSection">よくあるご質問</a></li>
+					<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
+				</ul>
+			<!-- /.globalNavi --></nav>
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /#pageTopFix --></div>
+
+			<nav class="globalNaviSmall">
+				<div id="globalNaviSmallIcon" class="globalNaviSmall__icon globalNaviSmall__icon--type01">
+					<div class="globalNaviSmall__iconButton">
+						<span class="iconButton--top"></span>
+						<span class="iconButton--middle"></span>
+						<span class="iconButton--bottom"></span>
+					</div>
+				</div>
+
+				<div class="modal micromodal-slide" id="modal-globalNaviSmall" aria-hidden="true">
+					<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				    		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-globalNaviSmall-labelledby">
+
+							<div class="globalNaviSmall__menu" id="modal-globalNaviSmall-labelledby">
+								<div class="globalNaviSmall__menu__inner">
+									<p class="globalNaviSmall__siteTitle">
+										<span><img src="img/common/imgCompanyName.png" alt="きたむら歯科クリニック" /></span>
+										<span><img src="img/common/siteTitle.svg" alt="セレック治療専門" /></span>
+									</p>
+									<div class="globalNaviSmall__tel"><a href="tel:0749241050">0749-24-1050</a></div>
+									<p class="globalNaviSmall__information">
+										午前 8:00-12:00 午後 14:00-18:00<br>水曜 8:00-13:00 土曜午後 14:00-17:00<br>休診日：木曜日、日曜日
+									<!-- /.pageBottomBox__title --></p>
+
+									<ul class="globalNaviSmall__menu__main">
+										<li><a href="#homeAboutSection">セレック治療とは</a></li>
+										<li><a href="#homePriceSection">料金表</a></li>
+										<li><a href="#homeAdvantageSection">当院の強み</a></li>
+										<li><a href="#homeFlowSection">治療の流れ</a></li>
+										<li><a href="#homeQuestionSection">よくあるご質問</a></li>
+										<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
+									</ul>
+								<!-- /.globalNaviSmall__menu__inner --></div>
+							<!-- /.globalNaviSmall__menu --></div>
+
+				    		<!-- /.modal__container --></div>
+					<!-- /.modal__overlay --></div>
+				<!-- /#modal-globalNaviSmall --></div>
+			<!-- /.globalNaviSmall --></nav>
+
+	<!-- /#header --></header>
+    
+	<section class="mainVisual">
+		<div class="inBase"><div class="inBase__inner">
+			<figure class="mainVisual__image">
+				<img src="img/home/imgMainVisual.jpg" alt="天然歯と変わらない自然な美しさ" class="hidden-sp" />
+				<img src="img/home/imgMainVisual_sp.jpg" alt="天然歯と変わらない自然な美しさ" class="hidden-pc" />
+			<!-- /.mainVisual__image --></figure>
+			<div class="mainVisual__inner">
+				<div class="mainVisual__lead"><h2>お口のコンプレックスは<br class="hidden-pc"><b>セレック治療</b>で解決！</h2></div>
+				<h3 class="mainVisual__chach">天然歯<small>と</small><br class="hidden-pc">変わらない<br>自然な美しさ</h3>
+				<ul class="mainVisual__request">
+					<li><span>被せ物が金属で目立って恥ずかしい</span></li>
+					<li><span>奥歯の詰め物が割れた、欠けた</span></li>
+					<li><span>短期間で綺麗な歯にしたい</span></li>
+				</ul>
+				<ul class="mainVisual__work">
+					<li><p>院内作製で<br>経済的</p><p>1本あたり<br><span><b>5</b>万円</span>から</p></li>
+					<li><p>1DAY治療で<br>即日装着</p><p>最短<br><span><b>1.5時間</b></span></p></li>
+					<li><p>高品質<br>セラミック</p><p>約15年後の<br>残存率<span><b>93</b>%</span></p></li>
+				</ul
+			<!-- /.mainVisual__inner --></div>
+			<div class="mainVisual__button"><a href="<?php echo home_url(); ?>/contact">初診のご予約はこちらから</a></div>
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+	<!-- /.mainVisual --></section>
+	
+	<div id="contents" class="clearfix">
+		<div class="inBase"><div class="inBase__inner">
+			<div class="homeRequestBox">
+				<div class="homeRequestBox__title"><h3>このような<span><b>歯</b>の<b>お悩み</b></span>は<br class="hidden-pc">ございませんか？</h3></div>
+				<div class="homeRequestBox__content">
+					<ul>
+						<li><p>奥歯の詰め物が<br><span>割れた、欠けた</span></p></li>
+						<li><p><span>短期間で手軽に</span><br><span>綺麗な歯</span>にしたい</p></li>
+						<li><p>被せ物が金属で<br><span>目立って</span><br><span>恥ずかしい</span></p></li>
+						<li><p>銀歯があり、<br><span>金属アレルギー</span>を<br>発症しないか心配</p></li>
+						<li><p>治療した歯が<br><span>虫歯になりやすい</span></p></li>
+						<li><p><span>費用を抑えた治療</span>を<br>受けたい</p></li>
+					</ul>
+					<figure class="homeRequestBox__person"><img src="img/home/imgPerson01.png" alt="歯にお悩みがある方" /></figure>
+				<!-- /.homeRequestBox__content --></div>
+			<!-- /.homeRequestBox --></div>
+			<div class="homeRequestBox__solution">
+				<p class="homeRequestBox__fukidashi"><span>ご安心<br>ください!!</span></p>
+				<h4 class="homeRequestBox__copy"><small>きたむら歯科クリニックの</small><b>セレック治療</b>で<br class="hidden-pc"><span>解決</span>できます！</h4>
+			</div>
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+
+		<div class="homeAboutBox" id="homeAboutSection">
+			<h3 class="homeAboutBox__title"><span>世界中で1,000万以上の症例実績</span><b>「セレック治療」とは？</b></h3>
+
+			<div class="inBase"><div class="inBase__inner">
+				<div class="homeAboutBox__headBox">
+					<figure class="homeAboutBox__headBox__image"><img src="img/home/imgEquipment.jpg" alt="セレック治療の設備" /></figure>
+					<div class="homeAboutBox__headBox__content">
+						<h4>医療先進国ドイツ発祥<br>世界的に<span>信頼と実績ある治療法</span></h4>
+						<p>口腔内をスキャンし歯の形状や状態をデータで取得して、自動的にセラミックの詰め物や被せ物を設計・製作するシステムを使用する治療法です。<br><br>
+							欧米では普及率が80%を超えているといわれています。世界で1,000万件以上の症例があるなど、20年以上の実績から長年にわたって信頼されています。</p>
+					<!-- /.homeAboutBox__headBox__content --></div>
+				<!-- /.homeAboutBox__headBox --></div>
+
+
+				<div class="homeAboutBox__qualityBox">
+					<h4 class="homeAboutBox__qualityBox__title">セレック治療<small>の</small>特徴</h4>
+					<ul class="homeAboutBox__qualityBox__content">
+						<li>
+							<figure><img src="img/home/iconMerit01.png" alt="天然歯と変わらない自然な美しさ" /></figure>
+							<h5>天然歯と変わらない<br><span>自然な美しさ</span></h5>
+							<p>患者様の天然の歯に近い<br class="hidden-sp">セラミックを使用するため<br class="hidden-sp">自然な色合いを実現可能</p>
+						</li>
+						<li>
+							<figure><img src="img/home/iconMerit02.png" alt="短時間での治療が可能" /></figure>
+							<h5><span>短時間</span>での<br>治療が可能</h5>
+							<p>全て院内で製作するため<br class="hidden-sp">最短1.5時間で治療が可能</p>
+						</li>
+						<li>
+							<figure><img src="img/home/iconMerit03.png" alt="劣化しにくく長持ち" /></figure>
+							<h5>劣化しにくく<br><span>長持ち</span></h5>
+							<p>表面がツルツルなため<br class="hidden-sp">歯石がつきにくく長持ち</p>
+						</li>
+						<li>
+							<figure><img src="img/home/iconMerit04.png" alt="金属アレルギーの心配がない" /></figure>
+							<h5><span>金属アレルギー</span>の<br>心配がない</h5>
+							<p>セラミックはメタルフリーで<br class="hidden-sp">お身体に優しい</p>
+						</li>
+						<li>
+							<figure><img src="img/home/iconMerit05.png" alt="腫れにくい" /></figure>
+							<h5><span>腫れにくい</span></h5>
+							<p>腫れることがほとんどないため、<br class="hidden-sp">すぐに日常生活を過ごせる</p>
+						</li>
+						<li>
+							<figure><img src="img/home/iconMerit06.png" alt="虫歯予防になる" /></figure>
+							<h5><span>虫歯予防</span>になる</h5>
+							<p>セラミックと歯との密着性が高いため、<br class="hidden-sp">虫歯の再発リスクを抑えられる</p>
+						</li>
+					<!-- /.homeAboutBox__qualityBox__content --></ul>
+				<!-- /.homeAboutBox__qualityBox --></div>
+
+				<div class="homeAboutBox__priceBox" id="homePriceSection">
+					<h4 class="homeAboutBox__priceBox__title">セレック治療<small>の</small><span>価格</span></h4>
+					<p class="homeAboutBox__priceBox__sentence">従来のセラミック治療は１本10万円前後と言われ費用面でも諦める方も多かったのでないでしょうか？<br>セレック治療の場合、歯科技工士の人件費を削減できるため、低価格でご提供することが可能になりました。</p>
+					<div class="breadthScrollBox">
+						<div class="homeAboutBox__priceBox__content">
+							<table class="table--type01">
+								<tr>
+									<th><span></span></th>
+									<th><b>セレック治療</b></th>
+									<th>従来のセラミック治療</th>
+								</tr>
+								<tr>
+									<th>保険適用</th>
+									<td><b>対象外</b></td>
+									<td>対象外</td>
+								</tr>
+								<tr>
+									<th>料金</th>
+									<td><b>49,500円</b></td>
+									<td>約60,000円～100,000円</td>
+								</tr>
+								<tr>
+									<th>治療期間</th>
+									<td><b>1回の通院<br>最短1.5時間</b></td>
+									<td>最低でも2回の通院<br>型取りが必要なため1週間～2週間</td>
+								</tr>
+								<tr>
+									<th>保証期間</th>
+									<td><b>5年</b></td>
+									<td>1～5年</td>
+								</tr>
+							</table>
+						<!-- /.homeAboutBox__priceBox__content --></div>
+					<!-- /.breadthScrollBox --></div>
+				<!-- /.homeAboutBox__priceBox --></div>
+
+				<div class="homeAboutBox__comparisonBox">
+					<h5 class="homeAboutBox__comparisonBox__lead"><span>詰め物や被せ物に使われる<br class="hidden-pc">「種類の違い」を比較！</span></h5>
+					<div class="homeAboutBox__comparisonBox__title">
+						<p><span>そもそも</span></p>
+						<h4>セラミック<small>は<br class="hidden-pc"></small>銀歯<small>や</small>金歯<small>と</small><span>何が違うの？</span></h4>
+					</div>
+					<div class="breadthScrollBox">
+						<div class="homeAboutBox__comparisonBox__content">
+							<table class="table--type01">
+								<tr>
+									<th><span></span></th>
+									<th><b>セラミック</b></th>
+									<th>銀歯</th>
+									<th>ゴールド</th>
+								</tr>
+								<tr>
+									<th>概要</th>
+									<td>陶器でつくられており、<span>透明感があり、</span><span>天然歯に近い白さ</span>がある</td>
+									<td>金属製で素材には銀もしくは金銀パラジウム合金、ニッケルクロム合金が用いられている</td>
+									<td>生体親和性の高い貴金属で作られる金にプラチナを加えた、白金加金も含む</td>
+								</tr>
+								<tr>
+									<th>保険適用</th>
+									<td>対象外</td>
+									<td>対象</td>
+									<td>対象外</td>
+								</tr>
+								<tr>
+									<th>費用</th>
+									<td>約30,000～150,000円</td>
+									<td>約3,000～15,000円<br>（3割負担の場合）</td>
+									<td>約60,000円～120,000円</td>
+								</tr>
+								<tr>
+									<th>メリット</th>
+									<td>
+										・<span>着色しにくく、</span><span>歯の白さが長持ちする</span><br>
+										・<span>劣化しにくい</span><br>
+										・<span>細菌がつきにくいため</span><span>虫歯になりにくい</span><br>
+										・<span>金属アレルギーの</span><span>不安がない</span>
+									</td>
+									<td>
+										・金属のため強度が高く、欠けにくい<br>
+										・治療費の負担が軽い
+									</td>
+									<td>
+										・錆びたり、劣化しにくい<br>
+										・歯に馴染み、虫歯になりにくい<br>
+										・歯や歯茎が変色しにくい<br>
+										・金属のため強度が高い
+									</td>
+								</tr>
+								<tr>
+									<th>デメリット</th>
+									<td>
+										・金属よりも強度がやや低い<br>
+										・歯を削る量が多くなる
+									</td>
+									<td>
+										・見た目に目立つ<br>
+										・金属アレルギーを発症する可能性がある<br>
+										・虫歯や口臭の原因になることがある<br>
+										・歯や歯茎が変色しやすい
+									</td>
+									<td>
+										・見た目に目立つ<br>
+										・金属アレルギーを発症する可能性がある
+									</td>
+								</tr>
+							</table>
+						<!-- /.homeAboutBox__comparisonBox__content --></div>
+					<!-- /.breadthScrollBox --></div>
+				<!-- /.homeAboutBox__comparisonBox --></div>
+
+
+
+				<div class="homeAboutBox__cautionBox">
+					<h4 class="homeAboutBox__cautionBox__title">ご注意ください。</h4>
+					<figure class="homeAboutBox__cautionBox__image"><img src="img/home/imgPerson02.png" alt="ご注意ください。" /></figure>
+					<p class="homeAboutBox__cautionBox__sentence"><span class="currentYear"></span>年現在、日本ではセレックシステムの導入コストの高さから歯科医院への普及率は高くありません。<br>当医院はセレックについての正しい知識や技術を持っている歯科医院にご相談をおすすめしています。</p>
+				<!-- /.homeAboutBox__cautionBox --></div>
+
+
+
+
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homeAboutBox --></div>
+
+
+
+		<div class="homeAdvantageBox" id="homeAdvantageSection">
+			<div class="inBase"><div class="inBase__inner">
+				<div class="homeAdvantageBox__title">
+					<p>セレック治療の経験が豊富な</p>
+					<h3>きたむら歯科クリニックの<br><span><b>3</b>つの<b>強み</b></span></h3>
+				<!-- /.homeAdvantageBox__title --></div>
+			
+				<div class="homeAdvantageBox__inner">
+					<div class="homeAdvantageBox__advantage">
+						<figure class="homeAdvantageBox__advantage__image"><img src="img/home/imgAdvantage01.jpg" alt="親切・丁寧な対応" /></figure>
+						<p class="homeAdvantageBox__advantage__number"><span>01</span></p>
+						<h4 class="homeAdvantageBox__advantage__title">親切・丁寧な対応</h4>
+						<p class="homeAdvantageBox__advantage__sentence">患者様にアンケートにご回答いただいた結果、99％の方が治療にご満足いただいております！<br>
+							事前のカウンセリングや説明を重視していることが反映されており、嬉しい結果です。<br>
+							総合病院で治療経験がある医師が、症状に合わせて最適な治療をご提案いたしますので、安心してご来院ください！</p>
+					<!-- /.homeAdvantageBox__advantage --></div>
+					<div class="homeAdvantageBox__advantage">
+						<figure class="homeAdvantageBox__advantage__image"><img src="img/home/imgAdvantage02.jpg" alt="安心の技術力" /></figure>
+						<p class="homeAdvantageBox__advantage__number"><span>02</span></p>
+						<h4 class="homeAdvantageBox__advantage__title">安心の技術力</h4>
+						<p class="homeAdvantageBox__advantage__sentence">日本臨床歯科CADCAM学会に所属する医師が在籍しておりす！<br>
+							基本から応用までを学べるセレック治療のセミナーを受講済みのため、知識も技術力も確かなものです。<br>
+							ご不安なことがあれば、小さなことでもご相談ください！</p>
+					<!-- /.homeAdvantageBox__advantage --></div>
+					<div class="homeAdvantageBox__advantage">
+						<figure class="homeAdvantageBox__advantage__image"><img src="img/home/imgAdvantage03.jpg" alt="トリートメントコーディネーターが在籍" /></figure>
+						<p class="homeAdvantageBox__advantage__number"><span>03</span></p>
+						<h4 class="homeAdvantageBox__advantage__title">トリートメント<br>コーディネーターが在籍</h4>
+						<p class="homeAdvantageBox__advantage__sentence">初診時のカウンセリングや治療前の治療方針のご説明を行うトリートメントコーディネーター(TC)が在籍しております。<br>
+							TCは患者様に一番近い存在です。患者様と同じ目線でお話しをお伺いできますので、医師に話しづらいことでもご相談ください！</p>
+					<!-- /.homeAdvantageBox__advantage --></div>
+				<!-- /.homeAdvantageBox__inner --></div>
+
+				<h3 class="homeAdvantageBox__caseTitle">セレック<small>を</small>使った<br class="hidden-pc">症例紹介</h3>
+
+				<div class="homeAdvantageBox__caseBox">
+
+
+					<!-- スライダーここから -->
+					<div class="sliderBox--typeChangeSlide">
+					<!-- Slider全体のコンテナ -->
+					<div class="swiper">
+					    <!-- Sliderの内包コンテナ -->
+					    <div class="swiper-wrapper">
+					        <!-- Slideさせたいコンテンツ -->
+						<div class="swiper-slide">
+							<div class="homeAdvantageBox__case"><a href="#">
+								<div class="homeAdvantageBox__case__title --isPC"><h4>症例1</h4></div>
+								<div class="homeAdvantageBox__case__image">
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgAdvantage01.jpg" alt="before" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>before</figcaption>
+									</figure>
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgCaseSample_after.jpg" alt="after" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>after</figcaption>
+									</figure>
+								<!-- /.homeAdvantageBox__case__image --></div>
+								<div class="homeAdvantageBox__case__title --isSP"><span>症例1</span></div>
+								<p class="homeAdvantageBox__case__sentence">
+									主訴：テキストテキスト<br>
+									20代、男性、費用など
+								</p>
+							</a><!-- /.homeAdvantageBox__case --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeAdvantageBox__case"><a href="#">
+								<div class="homeAdvantageBox__case__title --isPC"><h4>症例2</h4></div>
+								<div class="homeAdvantageBox__case__image">
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgCaseSample_before.jpg" alt="before" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>before</figcaption>
+									</figure>
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgCaseSample_after.jpg" alt="after" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>after</figcaption>
+									</figure>
+								<!-- /.homeAdvantageBox__case__image --></div>
+								<div class="homeAdvantageBox__case__title --isSP"><span>症例2</span></div>
+								<p class="homeAdvantageBox__case__sentence">
+									主訴：テキストテキスト<br>
+									20代、男性、費用など
+								</p>
+							</a><!-- /.homeAdvantageBox__case --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeAdvantageBox__case"><a href="#">
+								<div class="homeAdvantageBox__case__title --isPC"><h4>症例3</h4></div>
+								<div class="homeAdvantageBox__case__image">
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgCaseSample_before.jpg" alt="before" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>before</figcaption>
+									</figure>
+									<figure>
+										<div class="adjustBox">
+										    <div class="adjustBox__inner">
+											<img src="img/home/imgCaseSample_after.jpg" alt="after" />
+										    <!-- /.adjustBox__inner --></div>
+										<!-- /.adjustBox --></div>
+										<figcaption>after</figcaption>
+									</figure>
+								<!-- /.homeAdvantageBox__case__image --></div>
+								<div class="homeAdvantageBox__case__title --isSP"><h4>症例3</h4></div>
+								<p class="homeAdvantageBox__case__sentence">
+									主訴：テキストテキスト<br>
+									20代、男性、費用など
+								</p>
+							</a><!-- /.homeAdvantageBox__case --></div>
+						<!-- /.swiper-slide --></div>
+
+
+
+					    <!-- /.swiper-wrapper --></div>
+					    <!-- ナビゲーションボタン（※省略可） -->
+					    <div class="swiper-button-prev"></div>
+					    <div class="swiper-button-next"></div>
+
+					<!-- /.swiper --></div>
+					<!-- Sliderここまで -->
+					<!-- /.sliderBox--typeChangeSlide --></div>
+					<!-- スライダーここまで -->
+
+
+
+					<div class="homeAdvantageBox__case__button"><a href="<?php echo home_url(); ?>/case">詳細</a></div>
+
+				<!-- /.homeAdvantageBox__caseBox --></div>
+
+
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homeAdvantageBox --></div>
+
+
+
+		<div class="homeFlowBox" id="homeFlowSection">
+			<div class="inBase"><div class="inBase__inner">
+				<h3 class="homeFlowBox__title">治療<small>の</small>流れ</h3>
+
+				<div class="homeFlowBox__inner">
+
+
+					<!-- スライダーここから -->
+					<div class="sliderBox--typeChangeSlide">
+					<!-- Slider全体のコンテナ -->
+					<div class="swiper">
+					    <!-- Sliderの内包コンテナ -->
+					    <div class="swiper-wrapper">
+					        <!-- Slideさせたいコンテンツ -->
+						<div class="swiper-slide">
+							<div class="homeFlowBox__flow">
+								<figure class="homeFlowBox__image"><img src="img/home/imgFlow01.jpg" alt="虫歯の除去、歯の形態修正" /></figure>
+								<p class="homeFlowBox__number"><span>Step</span><span>01</span></p>
+								<h4 class="homeFlowBox__flowTitle">虫歯の除去、歯の形態修正</h4>
+								<p class="homeFlowBox__sentence">テキストテキストテキストテキテキストテキストテキストテキ<br>
+									テキストテキストテキストテキテキストテキストテキストテキ<br>
+									テキストテキスト</p>
+							<!-- /.homeFlowBox__flow --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeFlowBox__flow">
+								<figure class="homeFlowBox__image"><img src="img/home/imgFlow02.jpg" alt="口腔内のスキャン【約5分】" /></figure>
+								<p class="homeFlowBox__number"><span>Step</span><span>02</span></p>
+								<h4 class="homeFlowBox__flowTitle">口腔内のスキャン【約5分】</h4>
+								<p class="homeFlowBox__sentence">口腔内スキャナーで、口腔内を撮影します。小型の機械をお口に差し込むだけで、非接触のスキャンができます。<br>
+									従来の、印象材を用いた型取りは原則不要です。</p>
+							<!-- /.homeFlowBox__flow --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeFlowBox__flow">
+								<figure class="homeFlowBox__image"><img src="img/home/imgFlow03.jpg" alt="修復物の設計【約15分】" /></figure>
+								<p class="homeFlowBox__number"><span>Step</span><span>03</span></p>
+								<h4 class="homeFlowBox__flowTitle">修復物の設計【約15分】</h4>
+								<p class="homeFlowBox__sentence">スキャンして取得したデータを元に、詰め物・被せ物を設計します。</p>
+							<!-- /.homeFlowBox__flow --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeFlowBox__flow">
+								<figure class="homeFlowBox__image"><img src="img/home/imgFlow04.jpg" alt="修復物の作製【約10～20分】" /></figure>
+								<p class="homeFlowBox__number"><span>Step</span><span>04</span></p>
+								<h4 class="homeFlowBox__flowTitle">修復物の作製【約10～20分】</h4>
+								<p class="homeFlowBox__sentence">設計図を元に、セラミックブロックを削り出し、詰め物・被せ物を作製します。<br>
+									さまざまな白さが用意されていますので、患者様と相談しながら、適切な白さのブロックを選定します。</p>
+							<!-- /.homeFlowBox__flow --></div>
+						<!-- /.swiper-slide --></div>
+
+						<div class="swiper-slide">
+							<div class="homeFlowBox__flow">
+								<figure class="homeFlowBox__image"><img src="img/home/imgFlow05.jpg" alt="" /></figure>
+								<p class="homeFlowBox__number"><span>Step</span><span>05</span></p>
+								<h4 class="homeFlowBox__flowTitle">口腔内にセット</h4>
+								<p class="homeFlowBox__sentence">できあがった詰め物・被せ物を口腔内へとセットし、治療は終了です。<br>
+									ドイツでの調査によると、セレックによる修復物の10年後残存率は96％にものぼります。</p>
+							<!-- /.homeFlowBox__flow --></div>
+						<!-- /.swiper-slide --></div>
+
+
+					    <!-- /.swiper-wrapper --></div>
+					    <!-- ナビゲーションボタン（※省略可） -->
+					    <div class="swiper-button-prev"></div>
+					    <div class="swiper-button-next"></div>
+
+					<!-- /.swiper --></div>
+					<!-- Sliderここまで -->
+					<!-- /.sliderBox--typeChangeSlide --></div>
+					<!-- スライダーここまで -->
+
+
+
+				<!-- /.homeFlowBox__inner --></div>
+
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homeFlowBox --></div>
+
+
+		<div class="inBase"><div class="inBase__inner">
+			<div class="homeMessageBox" id="homeMessageSection">
+				<figure class="homeMessageBox__image">
+					<img src="img/home/imgDirector.jpg" alt="院長" class="hidden-sp" />
+					<img src="img/home/imgDirector_sp.jpg" alt="院長" class="hidden-pc" />
+				</figure>
+
+				<div class="homeMessageBox__inner">
+					<h3 class="homeMessageBox__title">院長挨拶</h3>
+					<p class="homeMessageBox__name">北村　佳也</p>
+					<h4 class="homeMessageBox__lead">5年後も10年先も健康な歯でいられるようにサポートします！</h4>
+					<p class="homeMessageBox__sentence01">初めまして、きたむら歯科クリニック院長の北村です。</p>
+			                    <div class="moreContentBox">
+			                        <!--項目ここから-->
+			                        <div class="moreContent">
+			                            <input type="checkbox" class="moreContent__check" id="moreContent__label001" />
+			                            <label for="moreContent__label001"><span>もっと読む</span><span>表示を戻す</span></label>
+			                            <div class="moreContent__content">
+			                                <!--隠す中身ここから-->
+								<p class="homeMessageBox__sentence01">
+									患者様ご自身が歯をより長く大切にしていただきたいという思いから、セレックシステムを導入しました。<br>
+									セレック治療は型取りが不要なため、型取りの不快感を味わうことがなく、安心して治療ができることも魅力的です。<br>
+									また、お口の中の情報がデータ化されるため、より安定した精度の高い治療ができるようになりました。<br><br>
+
+									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+								</p>
+								<p class="homeMessageBox__sentence02">所属学会・認定医</p>
+								<p class="homeMessageBox__sentence01">
+									テキストテキストテキストテキストテキストテキスト<br>
+									テキストテキストテキストテキスト<br>
+									テキストテキストテキストテキストテキスト
+								</p>
+			                                <!--隠す中身ここまで-->
+			                            <!--//.moreContent__content--></div>
+			                        <!--//.moreContent--></div>
+			                        <!--//項目ここまで-->
+			                    <!--//.moreContentBox--></div>
+
+				<!-- /.homeMessageBox__inner --></div>
+			<!-- /.homeMessageBox --></div>
+
+
+
+
+			<div class="homeQuestionBox" id="homeQuestionSection">
+				<h3 class="homeQuestionBox__title">よくあるご質問</h3>
+				<div class="homeQuestionBox__inner">
+					
+		                    <div class="accordionBox">
+		                        <!--項目ここから-->
+		                        <div class="accordion sM-s">
+		                            <input type="checkbox" class="accordion__check" id="accordion__label001" />
+		                            <label for="accordion__label001">
+						<div class="homeQuestionBox__icon"><span>Q</span></div>
+						<p>1日で作って質が落ちることはありませんか？</p>
+						<div class="accordion__icon"><div></div><div></div><!-- /.accordion__icon --></div>
+		                            </label>
+		                            <div class="accordion__content">
+		                                <!--隠す中身ここから-->
+						<div class="homeQuestionBox__icon"><span>A</span></div>
+						<p>従来の方法と比較して、1日で作製するセレック治療は精度や強度は良くなります。被せ物を作製する場合は、日数をいただきます。</p>
+		                                <!--隠す中身ここまで-->
+		                            <!--//.accordion__content--></div>
+		                        <!--//.accordion--></div>
+		                        <!--//項目ここまで-->
+
+		                        <!--項目ここから-->
+		                        <div class="accordion sM-s">
+		                            <input type="checkbox" class="accordion__check" id="accordion__label002" />
+		                            <label for="accordion__label002">
+						<div class="homeQuestionBox__icon"><span>Q</span></div>
+						<p>どのぐらいでできるのですか？</p>
+						<div class="accordion__icon"><div></div><div></div><!-- /.accordion__icon --></div>
+		                            </label>
+		                            <div class="accordion__content">
+		                                <!--隠す中身ここから-->
+						<div class="homeQuestionBox__icon"><span>A</span></div>
+						<p>治療の時間は90分いただいております。詰め物の作製は10分程度ですが、治療や装着、装着後の調整などでお時間をいただきます。</p>
+		                                <!--隠す中身ここまで-->
+		                            <!--//.accordion__content--></div>
+		                        <!--//.accordion--></div>
+		                        <!--//項目ここまで-->
+
+		                        <!--項目ここから-->
+		                        <div class="accordion sM-s">
+		                            <input type="checkbox" class="accordion__check" id="accordion__label003" />
+		                            <label for="accordion__label003">
+						<div class="homeQuestionBox__icon"><span>Q</span></div>
+						<p>1日で作るメリットはなんですか？</p>
+						<div class="accordion__icon"><div></div><div></div><!-- /.accordion__icon --></div>
+		                            </label>
+		                            <div class="accordion__content">
+		                                <!--隠す中身ここから-->
+						<div class="homeQuestionBox__icon"><span>A</span></div>
+						<p>従来の詰め物治療では、型採りから装着まで仮の蓋で過ごす必要があります。<br>
+							この間に汚れがついてしまい、48時間が経過すると、歯への虫歯菌の感染が成立します。<br>
+							感染が成立する前に装着することで、接着力がより高くなり、新たな虫歯も作りにくくなります。</p>
+		                                <!--隠す中身ここまで-->
+		                            <!--//.accordion__content--></div>
+		                        <!--//.accordion--></div>
+		                        <!--//項目ここまで-->
+
+		                        <!--項目ここから-->
+		                        <div class="accordion sM-s">
+		                            <input type="checkbox" class="accordion__check" id="accordion__label004" />
+		                            <label for="accordion__label004">
+						<div class="homeQuestionBox__icon"><span>Q</span></div>
+						<p>詰め物や被せ物が壊れた場合はどうすれば良いですか？</p>
+						<div class="accordion__icon"><div></div><div></div><!-- /.accordion__icon --></div>
+		                            </label>
+		                            <div class="accordion__content">
+		                                <!--隠す中身ここから-->
+						<div class="homeQuestionBox__icon"><span>A</span></div>
+						<p>当院で使用しているセレックでは、患者様ごとの3Dデータが保存されているため、データの取り直しが必要なく修復が可能です。</p>
+		                                <!--隠す中身ここまで-->
+		                            <!--//.accordion__content--></div>
+		                        <!--//.accordion--></div>
+		                        <!--//項目ここまで-->
+
+		                        <!--項目ここから-->
+		                        <div class="accordion sM-s">
+		                            <input type="checkbox" class="accordion__check" id="accordion__label005" />
+		                            <label for="accordion__label005">
+						<div class="homeQuestionBox__icon"><span>Q</span></div>
+						<p>ホワイトニングなども合わせて行いたいのですが、可能ですか？</p>
+						<div class="accordion__icon"><div></div><div></div><!-- /.accordion__icon --></div>
+		                            </label>
+		                            <div class="accordion__content">
+		                                <!--隠す中身ここから-->
+						<div class="homeQuestionBox__icon"><span>A</span></div>
+						<p>可能です。ほとんどの患者様が、セレック治療と合わせてホワイトニングやクリーニングを希望されます。</p>
+		                                <!--隠す中身ここまで-->
+		                            <!--//.accordion__content--></div>
+		                        <!--//.accordion--></div>
+		                        <!--//項目ここまで-->
+
+		                    <!--//.accordionBox--></div>
+				<!-- /.homeQuestionBox__inner --></div>
+			<!-- /.homeQuestionBox --></div>
+
+			<div class="homeBlogBox" id="homeBlogSection">
+				<h3 class="homeBlogBox__title">スタッフブログ</h3>
+
+				<div class="homeBlogBox__inner">
+		                    <div class="homeBlogBox__article"><a href="#">
+					<!-- 縦横比率調整表示ここから -->
+					<div class="adjustBox adjustBox--typeGR sM">
+					    <figure class="adjustBox__inner">
+					        <img src="img/common/no-image.png" alt="" class="h100">
+					    <!-- /.adjustBox__inner --></figure>
+					<!-- /.adjustBox --></div>
+					<!-- 縦横比率調整表示ここまで -->
+					<small class="homeBlogBox__date">2024.06.12</small>
+					<h4 class="homeBlogBox__article__title">スタッフブログタイトルスタッフブログスタッフブログタイトルタイトル</h4>
+		                    </a><!--//.homeBlogBox__article--></div>
+
+		                    <div class="homeBlogBox__article"><a href="#">
+					<!-- 縦横比率調整表示ここから -->
+					<div class="adjustBox adjustBox--typeGR sM">
+					    <figure class="adjustBox__inner">
+					        <img src="img/common/no-image.png" alt="" class="h100">
+					    <!-- /.adjustBox__inner --></figure>
+					<!-- /.adjustBox --></div>
+					<!-- 縦横比率調整表示ここまで -->
+					<small class="homeBlogBox__date">2024.06.12</small>
+					<h4 class="homeBlogBox__article__title">スタッフブログタイトル</h4>
+		                    </a><!--//.homeBlogBox__article--></div>
+				<!-- /.homeBlogBox__inner --></div>
+
+				<div class="button--type01 tC"><a href="<?php echo home_url(); ?>/blog">ブログ記事一覧</a></div>
+			<!-- /.homeBlogBox --></div>
+
+
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+
+
+
+
+
+
+
+
+        
+	<!-- /#contents --></div>
+
+	
+	<footer id="footer">
+		<div class="inBase"><div class="inBase__inner">
+			<div class="footer__headBox">
+				<div class="footer__headBox__informationBox">
+					<p class="footer__headBox__companyName"><img src="img/common/imgCompanyName.png" alt="きたむら歯科クリニック" /></p>
+					<table class="footer__headBox__information">
+						<tr>
+							<th>所在地</th>
+							<td>〒522-0041 滋賀県彦根市平田町137-8</td>
+						</tr>
+						<tr>
+							<th>TEL</th>
+							<td>0749-24-1050</td>
+						</tr>
+						<tr>
+							<th>営業時間</th>
+							<td>午前 8:00-12:00 午後 14:00-18:00<br>水曜 8:00-13:00 土曜午後 14:00-17:00</td>
+						</tr>
+						<tr>
+							<th>休診日</th>
+							<td>木曜日、日曜日</td>
+						</tr>
+					</table>
+				<!-- /.footer__headBox__informationBox --></div>
+				<div class="footer__headBox__map">
+					<div class="googleMapBox">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.7424508461436!2d136.24403604378128!3d35.26266261211904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003d52795a5c4c5%3A0xb8fe1d2fd5249265!2z44GN44Gf44KA44KJ5q2v56eR44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1715849738045!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<!-- /.googleMapBox --></div>
+				<!-- /.footer__headBox__map --></div>
+			<!-- /.footer__headBox --></div>
+
+			
+			<ul class="footer__navi">
+				<li><a href="<?php echo home_url(); ?>/#homeMessageSection">院長挨拶</a></li>
+				<li><a href="<?php echo home_url(); ?>/#homeAboutSection">セレック治療とは</a></li>
+				<li><a href="<?php echo home_url(); ?>/#homeAdvantageSection">当院の強み</a></li>
+				<li><a href="<?php echo home_url(); ?>/#homeFlowSection">治療の流れ</a></li>
+				<li><a href="<?php echo home_url(); ?>/#homeQuestionSection">よくあるご質問</a></li>
+				<li><a href="<?php echo home_url(); ?>/contact">お問い合わせ</a></li>
+				<li><a href="<?php echo home_url(); ?>/privacypolicy">プライバシーポリシー</a></li>
+				<li><a href="<?php echo home_url(); ?>/company">医院概要</a></li>
+			</ul>
+
+			<small class="copyright"> &copy;  <span class="currentYear"></span>　きたむら歯科クリニック All Rights Reserved.</small>
+
+			<p id="btnRise"><a href="#wrapper"><i class="icon-angle-up"></i><span>ページ上部に戻る</span></a></p>
+
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+	<!-- /#footer --></footer>
+
+	
+        
+	  
+	<div id="btnTelEmpty"></div>
+    
+	<div id="btnPageBottom">
+		<div class="btnPageBottom--btn">
+	        	<p class="btnPageBottom__contanctfSentence">初診のご予約はこちらから</p>
+	        	<div class="btnPageBottom__inner">
+		            <a class="clearfix" href="tel:0749241050">
+		                <p class="btnPageBottom__btnSent"><i class="fa fa-fw icon-phone"></i>電話する</p>
+		            </a>
+		            <a class="clearfix" href="<?php echo home_url(); ?>/contact">
+		                <p class="btnPageBottom__btnSent"><i class="fa fa-fw icon-envelope"></i>メールする</p>
+		            </a>
+	        	<!-- /.btnPageBottom__inner --></div>
+	        <!-- /.btnPageBottom--btn --></div>
+	<!-- /#btnPageBottom --></div>
+	  
+	<div id="pageBottomBox">
+		<div class="inBase"><div class="inBase__inner">
+			<div class="pageBottomBox__inner">
+				<div class="pageBottomBox__title">
+					<p><span>お気軽にご相談ください</span></p>
+					<p>お問い合わせ・初診の<br>ご予約はこちらから</p>
+				<!-- /.pageBottomBox__title --></div>
+
+				<p class="pageBottomBox__information">
+					午前 8:00-12:00 午後 14:00-18:00<br>水曜 8:00-13:00 土曜午後 14:00-17:00<br>休診日：木曜日、日曜日
+				<!-- /.pageBottomBox__title --></p>
+
+				<div class="pageBottomBox__tel"><a href="tel:0749241050">0749-24-1050</a></div>
+
+				<div class="pageBottomBox__button">
+					<a href="<?php echo home_url(); ?>/contact">メールでのお問い合わせ</a>
+				<!-- /.pageBottomBox__button --></div>
+			<!-- /.pageBottomBox__inner --></div>
+		<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+	<!-- /#pageBottomBox --></div>
+
+	<div class="sideBannerBox">
+    		<div class="sideBannerBox__banner --type01">
+			<a href="hurry.html">初診のご予約はこちらから</a>
+		<!-- /.sideBanner --></div>
+	<!-- /.sideBannerBox --></div>
+
+<!-- /#wrapper --></div>
+
+</body>
+</html>
+
+<script data-main="js/main" src="js/require.js"></script>

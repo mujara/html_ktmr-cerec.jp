@@ -1,0 +1,96 @@
+@use "../_setting" as s;
+
+#footer {
+	background: url(../img/common/imgPattern01.png) repeat center top;
+	padding:3em 0 0 0;
+	clear: both;
+	position:relative;
+}
+
+
+#wrapper .footer__headBox {
+	display:block;
+	margin-bottom:2em;
+	@include s.media(m){
+		width:100%;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+	&__informationBox{
+		display:block;
+		margin-bottom:2em;
+		@include s.media(m){
+			width:41%;
+			order:2;
+			margin-bottom:0;
+		}
+		table{
+			th{
+				font-family: "Noto Sans JP", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: 400;
+				font-style: normal;
+				color:s.$colorType02;
+				padding:0.2em 0.5em;
+				border:none;
+				background:none;
+			}
+			td{
+				font-family: "Noto Sans JP", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: 400;
+				font-style: normal;
+				padding:0.2em 0.5em;
+				border:none;
+			}
+			tr:nth-of-type(2n+1) {
+			    background-color: unset;
+			}
+		}
+	}
+	&__companyName{
+		width:80%;
+		margin:0 auto 2em;
+		@include s.media(m){
+			margin:0 0 1em;
+			width:s.em(415);
+			order:2;
+		}
+		img{
+			width:100%;
+		}
+	}
+	&__map{
+		display:block;
+		@include s.media(m){
+			width:52%;
+			order:1;
+		}
+	}
+}
+
+
+.footer__navi {
+	display:none;
+	@include s.media(m){
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	li{
+		padding:0 1em;
+		a{
+			font-family: "Noto Sans JP", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-style: normal;
+			font-size:0.9em;
+			color:#53526C;
+			text-decoration:none;
+			&:hover {
+				color:s.$colorType03;
+			}
+		}
+	}
+}
